@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000';  // Change to your backend URL
+const API_URL = 'http://127.0.0.1:5007';  // Change to your backend URL
 
 export async function fetchData() {
     const response = await fetch(`${API_URL}/`, {
